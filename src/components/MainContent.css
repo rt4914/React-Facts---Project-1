@@ -1,0 +1,43 @@
+.root-main-content{
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+#logo {
+    height: 75%;
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    filter: grayscale(0.8) brightness(0.3) contrast(101%);
+    transform: translateX(50%);
+}
+
+.main-text {
+    position: absolute;
+    z-index: 2;
+    margin: 56px 48px 24px 48px;
+}
+
+.react-facts-text {
+    color: white;
+    font-family: Inter, Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.fact-item-list {
+    padding: 0px;
+    margin-left: 24px;
+}
+
+.fact-item-list > li {
+    color: white;
+    font-family: Inter, Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 24px;
+}
