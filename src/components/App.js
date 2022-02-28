@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from './Header.js'
-import MainContent from './MainContent';
+import Navbar from './Navbar.js'
+import Main from './Main';
 
 function App() {
   return (
     <div>
-      <Header />
-      <MainContent />
+      <Navbar />
+      <Main />
     </div>
   );
 }
